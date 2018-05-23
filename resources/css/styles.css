@@ -1,0 +1,59 @@
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #7d97ad;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 100;
+
+}
+
+h2 {
+  font-weight: 300;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.header-logo {
+  width: 25%;
+  color: #02b3e4;
+
+  /* align content verticaly */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-author {
+  width: 75%;
+  text-align: right;
+}
+
+.spacer-left {
+  padding-left: 10px;
+}
+
+.spacer-right {
+  padding-right: 10px;
+}
+
+.container-work {
+  padding-top: 2.5em;
+}
