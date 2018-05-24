@@ -2,7 +2,6 @@ h1,
 h2,
 h3 {
   font-family: 'Roboto', sans-serif;
-  color: #7d97ad;
   margin: 0;
 }
 
@@ -17,6 +16,7 @@ h2 {
 body {
   padding: 0;
   margin: 0;
+  color: #7d97ad;
 }
 
 header {
@@ -48,6 +48,11 @@ img {
   color: #02b3e4;
 }
 
+.container-content {
+  padding-top: 2.5em;
+  color: #2d3c49;
+}
+
 .container-author {
   width: 75%;
   text-align: right;
@@ -59,11 +64,6 @@ img {
 
 .spacer-right {
   padding-right: 10px;
-}
-
-.container-content {
-  padding-top: 2.5em;
-  color: #2d3c49;
 }
 
 .container-work {
