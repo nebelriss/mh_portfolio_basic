@@ -25,12 +25,22 @@ header {
   background-color: #fff;
 }
 
+main {
+  padding-top: 70px;
+}
+
 img {
   width: 100%;
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .header-logo {
@@ -67,14 +77,4 @@ img {
 
 .work img {
   max-width: 320px;
-}
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-main {
-  padding-top: 70px;
 }
