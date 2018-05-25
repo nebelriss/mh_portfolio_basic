@@ -19,10 +19,22 @@ body {
   color: #7d97ad;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#7d97ad;
+  height: 1px;
+}
+
 header {
   position: fixed;
   width: 100%;
   background-color: #fff;
+  -webkit-box-shadow: 0px 3px 16px -2px rgba(45,60,73,1);
+  -moz-box-shadow: 0px 3px 16px -2px rgba(45,60,73,1);
+  box-shadow: 0px 3px 16px -2px rgba(45,60,73,1);
 }
 
 main {
@@ -31,6 +43,15 @@ main {
 
 img {
   width: 100%;
+}
+
+a {
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2d3c49;
 }
 
 .uppercase {
@@ -49,7 +70,7 @@ img {
 }
 
 .container-content {
-  padding-top: 2.5em;
+  padding-top: 2.0em;
   color: #2d3c49;
 }
 
@@ -69,12 +90,34 @@ img {
 .container-work {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work {
   width: 100%;
+  max-width: 320px;
+  margin-top: 20px;
 }
 
-.work img {
-  max-width: 320px;
+.container-content h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption p {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+.header-job-desc h3 {
+  font-size: 0.8em;
+}
+
+.big-logo {
+  margin-top: 10px;
 }

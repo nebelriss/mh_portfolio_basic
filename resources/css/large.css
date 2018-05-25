@@ -1,0 +1,14 @@
+main {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.big-logo {
+  display:block;
+  height:400px;
+  line-height:400px;
+  overflow:hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+

@@ -8,7 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
   <!-- stylesheets -->
   <link rel="stylesheet" href="resources/css/styles.css">
-  <link rel="stylesheet" href="resources/css/medium.css">
+  <link rel="stylesheet" href="resources/css/medium.css" media="(min-width: 460px)">
+  <link rel="stylesheet" href="resources/css/medium-large.css" media="(min-width: 740px)">
+  <link rel="stylesheet" href="resources/css/large.css" media="(min-width: 1150px)">
   <title>Michel Heiniger - Portfolio</title>
 </head>
 
@@ -29,12 +31,13 @@
       <hr>
     </div>
   </header>
+
   <main>
 
     <!-- logo -->
-    <section class="big-logo">
+    <div class="big-logo">
       <img src="resources/images/ilya-pavlov-87438-unsplash.jpg" alt="Big-Logo">
-    </section>
+    </div>
 
     <!-- Featured work block -->
     <section class="container-content">
@@ -45,8 +48,8 @@
         <div class="work">
           <img src="resources/images/featured-work/daniel-canibano-540359-unsplash.jpg" alt="featured work 1">
           <div class="caption">
-            <p>Featured work 1</p>
-            <a href="#">http://github.com/link</a>
+            <p class="uppercase">Featured work 1</p>
+            <a href="#">http://github.com/link1</a>
           </div>
         </div>
 
@@ -54,10 +57,19 @@
         <div class="work">
           <img src="resources/images/featured-work/daniel-canibano-540359-unsplash.jpg" alt="featured work 1">
           <div class="caption">
-            <p>Featured work 1</p>
-            <a href="#">http://github.com/link</a>
+            <p class="uppercase">Featured work 2</p>
+            <a href="http://github.com/link2">http://github.com/link2</a>
           </div>
         </div>
+
+        <!-- Featured Work 3 -->
+        <div class="work">
+            <img src="resources/images/featured-work/daniel-canibano-540359-unsplash.jpg" alt="featured work 1">
+            <div class="caption">
+              <p class="uppercase">Featured work 3</p>
+              <a href="#">http://github.com/link3</a>
+            </div>
+          </div>
       </div>
     </section>
   </main>

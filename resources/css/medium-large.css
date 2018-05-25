@@ -1,0 +1,12 @@
+.work {
+  max-width: 360px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.big-logo {
+  display:block;
+  height:300px;
+  line-height:300px;
+  overflow:hidden;
+}
