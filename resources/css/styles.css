@@ -6,6 +6,7 @@ h3 {
 }
 
 h1 {
+  font-size: 1.1em;
   font-weight: 100;
 }
 
@@ -115,4 +116,9 @@ a:visited {
 
 .big-logo {
   margin-top: 10px;
+}
+
+.header-logo img {
+  max-height: 50%;
+  max-width: 50%;
 }

@@ -10,3 +10,8 @@
   line-height:300px;
   overflow:hidden;
 }
+
+.header-logo img {
+  max-height: 40%;
+  max-width: 40%;
+}
