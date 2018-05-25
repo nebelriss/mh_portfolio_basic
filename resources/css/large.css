@@ -3,6 +3,23 @@ main {
   margin: auto;
 }
 
+header {
+  width: 1150px;
+  margin: 0% auto;
+  left: 0;
+  right: 0;
+  box-shadow: none;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#7d97ad;
+  height: 1px;
+}
+
 .big-logo {
   display:block;
   height:400px;

@@ -20,12 +20,7 @@ body {
 }
 
 hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color:#7d97ad;
-  height: 1px;
+  display: none;
 }
 
 header {
