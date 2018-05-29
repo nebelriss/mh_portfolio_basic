@@ -3,6 +3,14 @@ main {
   margin: auto;
 }
 
+.container-work {
+  justify-content: space-between;
+}
+
+.work {
+  margin: 0;
+}
+
 header {
   width: 1150px;
   margin: 0% auto;
@@ -25,7 +33,9 @@ hr {
   height:400px;
   line-height:400px;
   overflow:hidden;
-  margin-left: 10px;
-  margin-right: 10px;
+}
+
+.container-author {
+  padding-right: 0;
 }
 

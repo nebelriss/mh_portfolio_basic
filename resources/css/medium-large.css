@@ -1,5 +1,5 @@
 .work {
-  max-width: 360px;
+  max-width: 340px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -14,4 +14,24 @@
 .header-logo img {
   max-height: 40%;
   max-width: 40%;
+}
+
+.container-skill {
+  margin-bottom: 1.5em;
+  margin-top: 0.8em;
+}
+
+.skill-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills {
+  line-height: 40px;
+}
+
+.left-skills, .right-skills {
+  width: 45%;
 }
