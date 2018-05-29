@@ -17,6 +17,8 @@ header {
   left: 0;
   right: 0;
   box-shadow: none;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 
 hr {
@@ -34,6 +36,8 @@ hr {
   height:400px;
   line-height:400px;
   overflow:hidden;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 .container-author {
